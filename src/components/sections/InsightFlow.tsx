@@ -74,7 +74,7 @@ export default function InsightFlow() {
                 className={`absolute inset-0 rounded-2xl bg-gradient-to-br ${stage.accent} opacity-0 group-hover:opacity-100 transition-opacity duration-500 pointer-events-none`}
               />
 
-              <div className="relative z-10 space-y-6">
+              <div className="relative z-10 space-y-6 p-10">
                 {/* Header inside Card */}
                 <div className="flex items-center justify-between">
                   <div className="p-3 rounded-xl bg-slate-800/80 border border-slate-700 text-indigo-400 group-hover:scale-110 transition-transform duration-300">
